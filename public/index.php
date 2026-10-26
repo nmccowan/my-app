@@ -17,7 +17,7 @@ $rows = db()->query('SELECT * FROM messages ORDER BY id DESC')->fetchAll();
     <title>My App</title>
 </head>
 <body>
-    <h1>Messages</h1>
+    <h1>Message Board</h1>
 
     <form method="POST">
         <input type="text" name="name" placeholder="Your name" required><br><br>
